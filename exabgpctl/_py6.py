@@ -13,7 +13,7 @@ import sys
 
 PY2 = sys.version_info[0] == 2
 
-# pylint: disable=invalid-name,redefined-builtin
+# pylint: disable=invalid-name,redefined-builtin,undefined-variable
 
 if PY2:
     text_type = unicode

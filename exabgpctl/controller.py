@@ -3,7 +3,7 @@
 exabgpctl.view
 ~~~~~~~~~~~~~~
 """
-from __future__ import absolute_import, print_function
+from __future__ import print_function
 
 # standard
 import os
@@ -22,7 +22,7 @@ from exabgp.version import version as exabgp_version
 
 try:
     from exabgp.configuration.ancient import Configuration
-except:
+except ImportError:
     from exabgp.configuration.configuration import Configuration
 
 # local
@@ -462,6 +462,7 @@ def print_yaml(data):
         print(data)
     else:
         MyDumper.add_representer(string_types, SafeRepresenter.represent_str)
+        # pylint: disable=no-member
         if hasattr(SafeRepresenter, "represent_unicode"):
             MyDumper.add_representer(
                 text_type, SafeRepresenter.represent_unicode
