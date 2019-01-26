@@ -1,0 +1,5 @@
+click
+ipaddr
+pyyaml
+exabgp>=3.4.19,<4.0.0;python_version=="2.7"
+exabgp>=4.0.0;python_version>="3.4"

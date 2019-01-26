@@ -1,0 +1,8 @@
+sphinx-rtd-theme
+pytest
+mock
+pytest-cov
+pylint
+sphinx
+tox
+
