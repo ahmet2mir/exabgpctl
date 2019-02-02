@@ -50,7 +50,7 @@ See `Click project <https://click.palletsprojects.com/en/latest/bashcomplete/>`_
 Output format
 -------------
 
-You could choose which output format you wan't, by defaukt it will be `json`
+You could choose which output format you wan't, by default it will be `json`
 
 .. code-block:: console
 
