@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+click = "*"
+ipaddr = "*"
+exabgp = ">=4.0.0"
+PyYAML = "*"
+
+[requires]
+python_version = "2.7"
