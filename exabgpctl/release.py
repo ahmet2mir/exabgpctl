@@ -3,4 +3,4 @@
 exabgpctl.release
 ~~~~~~~~~~~~~~
 """
-__version__ = "19.01-2"
+__version__ = "19.06-1"
